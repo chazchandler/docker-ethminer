@@ -1,0 +1,9 @@
+version: '2'
+
+services:
+  ethminer:
+    build:
+      context: .
+      args:
+        REVISION: $REVISION
+    image: anthonytatowicz/eth-cuda-miner:${REVISION}

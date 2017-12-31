@@ -1,5 +1,8 @@
 FROM nvidia/cuda:8.0-devel-ubuntu16.04
 
+ARG REVISION
+ENV REVISION ${REVISION}
+
 MAINTAINER Anthony Tatowicz
 
 WORKDIR /
