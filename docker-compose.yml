@@ -6,4 +6,6 @@ services:
       context: .
       args:
         REVISION: $REVISION
-    image: anthonytatowicz/eth-cuda-miner:${REVISION}
+        ETHMINER_VERSION: $ETHMINER_VERSION
+        CUDA_VERSION: $CUDA_VERSION
+    image: chaznet/eth-cuda-miner:${CUDA_VERSION}-${ETHMINER_VERSION}-${REVISION}
