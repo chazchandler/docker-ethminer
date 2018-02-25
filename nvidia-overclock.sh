@@ -14,7 +14,7 @@ MY_CLOCK="100"
 MY_MEM="800"
 
 # GPUTargetFanSpeed (%)
-MY_FAN="80"
+MY_FAN="90"
 
 MY_WATT="120"
 MY_PM="0"
